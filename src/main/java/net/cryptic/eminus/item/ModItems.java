@@ -23,6 +23,10 @@ public class ModItems {
 
     public static final RegistryObject<Item> DOWN_QUARK = ITEMS.register("down_quark",()-> new QuarkDownItem(new Item.Properties()));
 
+    public static final RegistryObject<Item> CHARM_QUARK = ITEMS.register("charm_quark",()-> new QuarkCharmItem(new Item.Properties()));
+
+    public static final RegistryObject<Item> STRANGE_QUARK = ITEMS.register("strange_quark",()-> new QuarkStrangeItem(new Item.Properties()));
+
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);
     }

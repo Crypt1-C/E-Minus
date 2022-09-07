@@ -2,10 +2,22 @@
   "item.eminus.electron": "Electron",
   "item.eminus.proton": "Proton",
   "item.eminus.neutron": "Neutron",
-  "item.eminus.up_quark": "§2Up §rQuark",
-  "item.eminus.down_quark": "§4Down §rQuark",
+  "item.eminus.up_quark": "§l§2Up §rQuark",
+  "item.eminus.down_quark": "§l§4Down §rQuark",
+  "item.eminus.charm_quark": "§l§5Charm §rQuark",
+  "item.eminus.strange_quark": "§l§bStrange §rQuark",
 
+  "tooltip.item.eminus.electron": "§3[e⁻]",
+  "tooltip.charge.item.eminus.electron": "§eQ = -1.602176634×10⁻¹⁹ C]",
 
+  "tooltip.item.eminus.proton": "§3[p⁺]",
+  "tooltip.charge.item.eminus.proton": "§e§eQ = 1.602176634×10⁻¹⁹ C",
+
+  "tooltip.item.eminus.neutron": "§3[n⁰]",
+  "tooltip.charge.item.eminus.neutron": "§eQ = null",
+
+  "tooltip.charge.item.eminus.down_quark": "§e[Q = +⅔.e]",
+  "tooltip.charge.item.eminus.up_quark": "§e[Q = -⅓.e]",
 
 
   "itemGroup.eminus_tab": "E Minus"

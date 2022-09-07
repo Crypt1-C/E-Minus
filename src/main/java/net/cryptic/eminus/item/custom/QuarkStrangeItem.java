@@ -11,15 +11,15 @@ import org.jetbrains.annotations.Nullable;
 
 import java.util.List;
 
-public class NeutronItem extends Item {
+public class QuarkStrangeItem extends Item {
 
-    public NeutronItem(Properties pProperties) {
+    public QuarkStrangeItem(Properties pProperties) {
         super(pProperties.tab(ModCreativeTab.EMINUS_TAB));
     }
 
     @Override
     public void appendHoverText(ItemStack pStack, @Nullable Level pLevel, List<Component> pTooltipComponents, TooltipFlag pIsAdvanced) {
-        pTooltipComponents.add(new TranslatableComponent("tooltip.item.eminus.neutron"));
-        pTooltipComponents.add(new TranslatableComponent("tooltip.charge.item.eminus.neutron"));
+        pTooltipComponents.add(new TranslatableComponent("tooltip.charge.item.eminus.up_quark"));
     }
+
 }
