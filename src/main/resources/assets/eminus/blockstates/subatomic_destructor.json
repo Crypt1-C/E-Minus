@@ -1,0 +1,6 @@
+{
+	"variants": {
+		"charged=false": {"model": "eminus:block/subatomic_destructor_normal"},
+		"charged=true": {"model": "eminus:block/subatomic_destructor_charged"}
+	}
+}

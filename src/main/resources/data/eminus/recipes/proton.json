@@ -1,0 +1,11 @@
+{
+  "type": "eminus:subatomic_destructing",
+  "ingredients": [
+    {
+      "item": "eminus:neutron"
+    }
+  ],
+  "output": {
+    "item": "eminus:proton"
+  }
+}

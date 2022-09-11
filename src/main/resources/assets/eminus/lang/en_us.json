@@ -11,7 +11,7 @@
   "tooltip.charge.item.eminus.electron": "§eQ = -1.602176634×10⁻¹⁹ C]",
 
   "tooltip.item.eminus.proton": "§3[p⁺]",
-  "tooltip.charge.item.eminus.proton": "§e§eQ = 1.602176634×10⁻¹⁹ C",
+  "tooltip.charge.item.eminus.proton": "§eQ = 1.602176634×10⁻¹⁹ C",
 
   "tooltip.item.eminus.neutron": "§3[n⁰]",
   "tooltip.charge.item.eminus.neutron": "§eQ = null",

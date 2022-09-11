@@ -13,6 +13,8 @@ public class ModItems {
     public static final DeferredRegister<Item> ITEMS =
             DeferredRegister.create(ForgeRegistries.ITEMS, Main.MOD_ID);
 
+
+    // regular items
     public static final RegistryObject<Item> ELECTRON = ITEMS.register("electron",()-> new ElectronItem(new Item.Properties()));
 
     public static final RegistryObject<Item> PROTON = ITEMS.register("proton",()-> new ProtonItem(new Item.Properties()));
