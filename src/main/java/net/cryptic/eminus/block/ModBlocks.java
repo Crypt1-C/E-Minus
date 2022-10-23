@@ -29,10 +29,6 @@ public class ModBlocks {
             DeferredRegister.create(ForgeRegistries.BLOCKS, Main.MOD_ID);
 
     // blocks
-    public static final RegistryObject<Block> SUBATOMIC_DESTRUCTOR = registerBlock("subatomic_destructor",
-            ()-> new SubatomicDestructorBlock(BlockBehaviour.Properties
-                    .copy(Blocks.NETHERITE_BLOCK)
-            ), ModCreativeTab.EMINUS_TAB);
 
     public static final RegistryObject<Block> RED_FIRE = registerBlockWithoutBlockItem("red_fire",
             ()-> new RedFireBlock(BlockBehaviour.Properties.of(Material.FIRE),2.0F));

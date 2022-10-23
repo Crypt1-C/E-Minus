@@ -174,7 +174,7 @@ public class PlayerEventHandler {
                     SoundEvent soundEvent = isFlintAndSteel ? SoundEvents.FLINTANDSTEEL_USE : SoundEvents.FIRECHARGE_USE;
                     level.playSound(event.getPlayer(), pos, soundEvent, SoundSource.BLOCKS, 1.0F, level.random.nextFloat() * 0.4F + 0.8F);
                     level.setBlock(pos, ModBlocks.WHITE_FIRE.get().defaultBlockState(), 11);
-                    event.getPlayer().playSound(SoundEvents.FIREWORK_ROCKET_TWINKLE,1.0f,1.0f);
+                    event.getPlayer().playSound(SoundEvents.FIREWORK_ROCKET_TWINKLE_FAR,1.0f,0.7f);
                     event.getPlayer().addEffect(new MobEffectInstance(MobEffects.BLINDNESS,20*2,255,true,false));
                     event.getPlayer().addEffect(new MobEffectInstance(MobEffects.MOVEMENT_SLOWDOWN,20*1,24,true,false));
 

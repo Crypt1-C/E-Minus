@@ -5,7 +5,10 @@ import net.minecraft.network.chat.TextComponent;
 import net.minecraft.server.level.ServerLevel;
 import net.minecraft.world.InteractionHand;
 import net.minecraft.world.InteractionResult;
+import net.minecraft.world.entity.Entity;
+import net.minecraft.world.entity.EntityType;
 import net.minecraft.world.entity.player.Player;
+import net.minecraft.world.item.context.BlockPlaceContext;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.level.block.BaseFireBlock;
 import net.minecraft.world.level.block.Blocks;
@@ -31,6 +34,12 @@ public class WhiteFireBlock extends BaseFireBlock {
         pPlayer.displayClientMessage(new TextComponent("§6Burning Compound(s): §3Srontium Chloride §6|| §3Strontium Nitrate"),true);
         return InteractionResult.SUCCESS;
     }
+
+    @Override
+    public boolean isRandomlyTicking(BlockState pState) {
+        return super.isRandomlyTicking(pState);
+    }
+
 
     /*@SuppressWarnings("deprecation")
     @Override
